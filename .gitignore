@@ -36,3 +36,19 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# IntelliJ project files
+.idea/
+*.iml
+out/
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Libraries
+lib/*.jar
+
+# Output results
+output/*.json
