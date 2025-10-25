@@ -64,7 +64,6 @@ public class Main {
                 // --- Prim ---
                 PrimMST.Result pr = PrimMST.run(graph);
 
-                // запись результата
                 OutputEntry out = new OutputEntry();
                 out.graphId = id;
                 out.V = graph.vertexCount();
@@ -90,11 +89,13 @@ public class Main {
                 allResults.add(out);
             }
 
-            // сохраняем результаты
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             String outJson = gson.toJson(allResults);
             Files.write(Paths.get(outputPath), outJson.getBytes());
-            System.out.println("✅ Saved: " + outputPath);
+            System.out.println("Saved: " + outputPath);
+
+            writeSummaryCsv(allResults, datasetName);
+            System.out.println("Summary CSV updated for " + datasetName);
         }
     }
 
@@ -108,5 +109,41 @@ public class Main {
             list.add(m);
         }
         return list;
+    }
+    private static void writeSummaryCsv(List<OutputEntry> results, String datasetName) throws IOException {
+        Path csvPath = Paths.get("output/results_summary.csv");
+        boolean writeHeader = !Files.exists(csvPath);
+
+        List<String> lines = new ArrayList<>();
+
+        if (writeHeader) {
+            lines.add("dataset,id,algo_name,vertices,execute_time_ms,operation_count,total_cost");
+        }
+
+        for (OutputEntry entry : results) {
+            int id = entry.graphId;
+            int v = entry.V;
+
+            // Kruskal
+            lines.add(String.join(",",
+                    datasetName, String.valueOf(id), "Kruskal",
+                    String.valueOf(v),
+                    entry.kruskal.get("timeMs").toString(),
+                    String.valueOf((long)entry.kruskal.getOrDefault("comparisons", 0L)
+                            + (long)entry.kruskal.getOrDefault("unions", 0L)),
+                    entry.kruskal.get("totalWeight").toString()
+            ));
+
+            // Prim
+            lines.add(String.join(",",
+                    datasetName, String.valueOf(id), "Prim",
+                    String.valueOf(v),
+                    entry.prim.get("timeMs").toString(),
+                    entry.prim.get("edgeChecks").toString(),
+                    entry.prim.get("totalWeight").toString()
+            ));
+        }
+
+        Files.write(csvPath, lines, StandardOpenOption.CREATE, StandardOpenOption.APPEND);
     }
 }
