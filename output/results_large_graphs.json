@@ -3801,7 +3801,7 @@
         ],
         "total_cost": 991.81,
         "operations_count": 4602,
-        "execution_time_ms": 114.0
+        "execution_time_ms": 85.1009
       },
       "kruskal": {
         "mst_edges": [
@@ -7598,7 +7598,7 @@
         ],
         "total_cost": 991.81,
         "operations_count": 5352,
-        "execution_time_ms": 65.0
+        "execution_time_ms": 36.7189
       }
     },
     {
@@ -10902,7 +10902,7 @@
         ],
         "total_cost": 896.45,
         "operations_count": 4149,
-        "execution_time_ms": 38.0
+        "execution_time_ms": 26.8378
       },
       "kruskal": {
         "mst_edges": [
@@ -14199,7 +14199,7 @@
         ],
         "total_cost": 896.45,
         "operations_count": 4804,
-        "execution_time_ms": 72.0
+        "execution_time_ms": 38.6152
       }
     },
     {
@@ -17313,7 +17313,7 @@
         ],
         "total_cost": 854.9,
         "operations_count": 3794,
-        "execution_time_ms": 27.0
+        "execution_time_ms": 15.6635
       },
       "kruskal": {
         "mst_edges": [
@@ -20420,7 +20420,7 @@
         ],
         "total_cost": 854.9,
         "operations_count": 4408,
-        "execution_time_ms": 74.0
+        "execution_time_ms": 31.887
       }
     },
     {
@@ -24254,7 +24254,7 @@
         ],
         "total_cost": 987.26,
         "operations_count": 4534,
-        "execution_time_ms": 37.0
+        "execution_time_ms": 27.2666
       },
       "kruskal": {
         "mst_edges": [
@@ -28081,7 +28081,7 @@
         ],
         "total_cost": 987.26,
         "operations_count": 5298,
-        "execution_time_ms": 117.0
+        "execution_time_ms": 56.2552
       }
     },
     {
@@ -33025,7 +33025,7 @@
         ],
         "total_cost": 1234.62,
         "operations_count": 5846,
-        "execution_time_ms": 57.0
+        "execution_time_ms": 40.6618
       },
       "kruskal": {
         "mst_edges": [
@@ -37962,7 +37962,7 @@
         ],
         "total_cost": 1234.62,
         "operations_count": 6864,
-        "execution_time_ms": 131.0
+        "execution_time_ms": 70.1314
       }
     },
     {
@@ -40741,7 +40741,7 @@
         ],
         "total_cost": 798.43,
         "operations_count": 4912,
-        "execution_time_ms": 11.0
+        "execution_time_ms": 11.5218
       },
       "kruskal": {
         "mst_edges": [
@@ -43513,7 +43513,7 @@
         ],
         "total_cost": 798.43,
         "operations_count": 5457,
-        "execution_time_ms": 26.0
+        "execution_time_ms": 24.0797
       }
     },
     {
@@ -46647,7 +46647,7 @@
         ],
         "total_cost": 873.5,
         "operations_count": 4451,
-        "execution_time_ms": 16.0
+        "execution_time_ms": 14.9545
       },
       "kruskal": {
         "mst_edges": [
@@ -49774,7 +49774,7 @@
         ],
         "total_cost": 873.5,
         "operations_count": 5082,
-        "execution_time_ms": 34.0
+        "execution_time_ms": 23.7093
       }
     },
     {
@@ -51703,7 +51703,7 @@
         ],
         "total_cost": 634.17,
         "operations_count": 3343,
-        "execution_time_ms": 6.0
+        "execution_time_ms": 3.947
       },
       "kruskal": {
         "mst_edges": [
@@ -53625,7 +53625,7 @@
         ],
         "total_cost": 634.17,
         "operations_count": 3725,
-        "execution_time_ms": 11.0
+        "execution_time_ms": 7.1287
       }
     },
     {
@@ -58474,7 +58474,7 @@
         ],
         "total_cost": 1203.2,
         "operations_count": 7069,
-        "execution_time_ms": 55.0
+        "execution_time_ms": 44.187
       },
       "kruskal": {
         "mst_edges": [
@@ -63316,7 +63316,7 @@
         ],
         "total_cost": 1203.2,
         "operations_count": 8051,
-        "execution_time_ms": 100.0
+        "execution_time_ms": 61.8364
       }
     },
     {
@@ -65955,7 +65955,7 @@
         ],
         "total_cost": 760.39,
         "operations_count": 4037,
-        "execution_time_ms": 18.0
+        "execution_time_ms": 8.6442
       },
       "kruskal": {
         "mst_edges": [
@@ -68587,7 +68587,7 @@
         ],
         "total_cost": 760.39,
         "operations_count": 4561,
-        "execution_time_ms": 30.0
+        "execution_time_ms": 19.5654
       }
     }
   ]

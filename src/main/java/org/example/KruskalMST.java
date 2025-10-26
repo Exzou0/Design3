@@ -11,9 +11,10 @@ public class KruskalMST {
         public final int E;
         public final long comparisons;
         public final long unions;
-        public final long timeMs;
+        public final double timeMs;
 
-        public Result(List<Edge> mstEdges, double totalWeight, int V, int E, long comparisons, long unions, long timeMs) {
+        public Result(List<Edge> mstEdges, double totalWeight, int V, int E,
+                      long comparisons, long unions, double timeMs) {
             this.mstEdges = mstEdges;
             this.totalWeight = totalWeight;
             this.V = V;
@@ -25,7 +26,8 @@ public class KruskalMST {
     }
 
     public static Result run(Graph g) {
-        long t0 = System.nanoTime();
+        long start = System.nanoTime();
+
         List<Edge> edges = g.getEdgesCopy();
         Collections.sort(edges);
 
@@ -53,9 +55,10 @@ public class KruskalMST {
             if (mst.size() == g.vertexCount() - 1) break;
         }
 
-        long t1 = System.nanoTime();
-        return new Result(mst, total, g.vertexCount(), g.edgeCount(), comparisons, unions, (t1 - t0) / 1_000_000);
+        long end = System.nanoTime();
+        double timeMs = (end - start) / 1_000_000.0;
+
+        return new Result(mst, total, g.vertexCount(), g.edgeCount(),
+                comparisons, unions, timeMs);
     }
 }
-
-

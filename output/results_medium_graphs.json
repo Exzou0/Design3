@@ -1021,7 +1021,7 @@
         ],
         "total_cost": 427.51,
         "operations_count": 933,
-        "execution_time_ms": 9.0
+        "execution_time_ms": 6.0245
       },
       "kruskal": {
         "mst_edges": [
@@ -2038,7 +2038,7 @@
         ],
         "total_cost": 427.51,
         "operations_count": 1136,
-        "execution_time_ms": 18.0
+        "execution_time_ms": 14.4568
       }
     },
     {
@@ -2277,7 +2277,7 @@
         ],
         "total_cost": 278.85,
         "operations_count": 180,
-        "execution_time_ms": 0.0
+        "execution_time_ms": 0.2165
       },
       "kruskal": {
         "mst_edges": [
@@ -2509,7 +2509,7 @@
         ],
         "total_cost": 278.85,
         "operations_count": 237,
-        "execution_time_ms": 0.0
+        "execution_time_ms": 0.4425
       }
     },
     {
@@ -3523,7 +3523,7 @@
         ],
         "total_cost": 422.2,
         "operations_count": 1228,
-        "execution_time_ms": 4.0
+        "execution_time_ms": 2.6839
       },
       "kruskal": {
         "mst_edges": [
@@ -4530,7 +4530,7 @@
         ],
         "total_cost": 422.2,
         "operations_count": 1428,
-        "execution_time_ms": 10.0
+        "execution_time_ms": 3.7119
       }
     },
     {
@@ -5754,7 +5754,7 @@
         ],
         "total_cost": 497.37,
         "operations_count": 1737,
-        "execution_time_ms": 5.0
+        "execution_time_ms": 2.9639
       },
       "kruskal": {
         "mst_edges": [
@@ -6971,7 +6971,7 @@
         ],
         "total_cost": 497.37,
         "operations_count": 1980,
-        "execution_time_ms": 9.0
+        "execution_time_ms": 4.5744
       }
     },
     {
@@ -8200,7 +8200,7 @@
         ],
         "total_cost": 483.46,
         "operations_count": 1682,
-        "execution_time_ms": 5.0
+        "execution_time_ms": 2.596
       },
       "kruskal": {
         "mst_edges": [
@@ -9422,7 +9422,7 @@
         ],
         "total_cost": 483.46,
         "operations_count": 1927,
-        "execution_time_ms": 10.0
+        "execution_time_ms": 5.6271
       }
     },
     {
@@ -10436,7 +10436,7 @@
         ],
         "total_cost": 441.6,
         "operations_count": 1818,
-        "execution_time_ms": 4.0
+        "execution_time_ms": 2.353
       },
       "kruskal": {
         "mst_edges": [
@@ -11443,7 +11443,7 @@
         ],
         "total_cost": 441.6,
         "operations_count": 2018,
-        "execution_time_ms": 8.0
+        "execution_time_ms": 3.7934
       }
     },
     {
@@ -12072,7 +12072,7 @@
         ],
         "total_cost": 338.05,
         "operations_count": 897,
-        "execution_time_ms": 1.0
+        "execution_time_ms": 0.7793
       },
       "kruskal": {
         "mst_edges": [
@@ -12694,7 +12694,7 @@
         ],
         "total_cost": 338.05,
         "operations_count": 1021,
-        "execution_time_ms": 3.0
+        "execution_time_ms": 1.4504
       }
     },
     {
@@ -14073,7 +14073,7 @@
         ],
         "total_cost": 500.04,
         "operations_count": 1800,
-        "execution_time_ms": 7.0
+        "execution_time_ms": 6.2042
       },
       "kruskal": {
         "mst_edges": [
@@ -15445,7 +15445,7 @@
         ],
         "total_cost": 500.04,
         "operations_count": 2075,
-        "execution_time_ms": 17.0
+        "execution_time_ms": 10.5834
       }
     },
     {
@@ -15974,7 +15974,7 @@
         ],
         "total_cost": 347.71,
         "operations_count": 581,
-        "execution_time_ms": 1.0
+        "execution_time_ms": 0.8935
       },
       "kruskal": {
         "mst_edges": [
@@ -16496,7 +16496,7 @@
         ],
         "total_cost": 347.71,
         "operations_count": 685,
-        "execution_time_ms": 2.0
+        "execution_time_ms": 1.2567
       }
     },
     {
@@ -17420,7 +17420,7 @@
         ],
         "total_cost": 428.14,
         "operations_count": 1137,
-        "execution_time_ms": 4.0
+        "execution_time_ms": 2.473
       },
       "kruskal": {
         "mst_edges": [
@@ -18337,7 +18337,7 @@
         ],
         "total_cost": 428.14,
         "operations_count": 1318,
-        "execution_time_ms": 8.0
+        "execution_time_ms": 5.3104
       }
     }
   ]

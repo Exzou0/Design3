@@ -76,7 +76,7 @@
         ],
         "total_cost": 233.21,
         "operations_count": 32,
-        "execution_time_ms": 3.0
+        "execution_time_ms": 2.4202
       },
       "kruskal": {
         "mst_edges": [
@@ -148,7 +148,7 @@
         ],
         "total_cost": 233.21,
         "operations_count": 47,
-        "execution_time_ms": 1.0
+        "execution_time_ms": 0.8306
       }
     },
     {
@@ -232,7 +232,7 @@
         ],
         "total_cost": 109.22,
         "operations_count": 30,
-        "execution_time_ms": 0.0
+        "execution_time_ms": 0.0948
       },
       "kruskal": {
         "mst_edges": [
@@ -309,7 +309,7 @@
         ],
         "total_cost": 109.22,
         "operations_count": 46,
-        "execution_time_ms": 0.0
+        "execution_time_ms": 0.1255
       }
     },
     {
@@ -368,7 +368,7 @@
         ],
         "total_cost": 141.43,
         "operations_count": 21,
-        "execution_time_ms": 0.0
+        "execution_time_ms": 0.0465
       },
       "kruskal": {
         "mst_edges": [
@@ -420,7 +420,7 @@
         ],
         "total_cost": 141.43,
         "operations_count": 31,
-        "execution_time_ms": 0.0
+        "execution_time_ms": 0.0439
       }
     },
     {
@@ -554,7 +554,7 @@
         ],
         "total_cost": 322.77,
         "operations_count": 61,
-        "execution_time_ms": 0.0
+        "execution_time_ms": 0.5278
       },
       "kruskal": {
         "mst_edges": [
@@ -681,7 +681,7 @@
         ],
         "total_cost": 322.77,
         "operations_count": 86,
-        "execution_time_ms": 0.0
+        "execution_time_ms": 0.1516
       }
     },
     {
@@ -755,7 +755,7 @@
         ],
         "total_cost": 384.11,
         "operations_count": 23,
-        "execution_time_ms": 0.0
+        "execution_time_ms": 0.0719
       },
       "kruskal": {
         "mst_edges": [
@@ -822,7 +822,7 @@
         ],
         "total_cost": 384.11,
         "operations_count": 36,
-        "execution_time_ms": 0.0
+        "execution_time_ms": 0.068
       }
     }
   ]

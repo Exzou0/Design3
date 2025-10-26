@@ -50,5 +50,4 @@ Thumbs.db
 # Libraries
 lib/*.jar
 
-# Output results
-output/*.json
+
